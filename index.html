@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">TechMon</h1>
+            <nav class="nav">
+                <button class="btn btn --secondary">Log in</button>
+                <button class="btn btn --primary cart-btn">Cart</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Upgrade Your Personal Computer</h2>
+            <p class="hero-subtitle">Discover the latest Computer Sets</p>
+            <button class="btn btn --cta">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filter-pills">
+                <button class="pill-active" data-category="all">All</button>
+                <button class="pill" data-category="Laptops">Laptops</button>
+                <button class="pill" data-category="Headphones">Headphones</button>
+                <button class="pill" data-category="Accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card sale" data-rating="4.9">
+                    <img src="products/legion.jfif" alt="Legion Laptop" class="product-image">
+                    <h3 class="product-name">Gaming Laptop</h3>
+                    <p class="product-desc">High Performance Laptop for Gaming and Work</p>
+                    <div class="product-price">
+                        <span class="current-price">1200</span>
+                        <span class="old-price">1999</span>
+                    </div>
+                    <div class="product-rating">&starf;&starf;&starf;&starf;&starf; 4.9</div>
+                    <button class="btn btn --add">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card low-stock" data-rating="4.7">
+            <img src="products/wirelesshp.jfif" alt="Wireless Headphone">
+            <h3 class="product-name">Wireless Headphone</h3>
+            <p class="product-desc">Noise-Cancelling Wireless Headphone</p>
+            <div class="product-price">
+                <span class="current-price">299</span>
+            </div>
+            <div class="product-rating">&starf;&starf;&starf;&starf;&star; 4.7</div>
+            <button class="btn btn --add">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-rating="4.8">
+            <img src="products/razer.jfif" alt="Razer Mouse" class="product-image">
+            <h3 class="product-name">Razer</h3>
+            <p class="product-desc">Smooth Mouse Good For Gaming</p>
+            <div class="product-price">
+                <span class="current-price">99</span>
+            </div>
+            <div class="product-rating">&starf;&starf;&starf;&starf;&starf; 4.8</div>
+            <button class="btn btn --add">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-rating="4.6">
+            <img src="products/razermk.jfif" alt="Razer Mechanical Keyboard" class="product-image">
+            <h3 class="product-name">Razer Mechanical Keyboard</h3>
+            <p class="product-desc">Smooth For Typing and has Lights</p>
+            <div class="product-price">
+                <span class="current-price">499</span>
+            </div>
+            <div class="product-rating">&starf;&starf;&starf;&starf;&star; 4.6</div>
+            <button class="btn btn --add">Add to Cart</button>
+        </div>
+    </section>
+
+</body>
+</html>
